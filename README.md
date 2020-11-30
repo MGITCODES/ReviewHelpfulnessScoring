@@ -1,7 +1,4 @@
 # ReviewHelpfulnessScoring  
-## User-Review Graph: A Novel Approach to Scoring Review Helpfulness  
-This is our implementation for the paper:  
-Yiming Cao, Lizhen Cui, Wei He，Wei Guo, Huan Li, Hua Lu: User-Review Graph: A Novel Approach to Scoring Review Helpfulness.
 
 ## Environment Settings  
 python: 3.6 +  
