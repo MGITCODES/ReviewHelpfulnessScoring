@@ -1,7 +1,7 @@
 ### The baseline methods
-* Value-Oriented Helpfulness Ranking (V-OHR) [1]  
+* Value-Oriented Helpfulness Ranking [1] (V-OHR) 
 * Context-Aware helpfulness rating prediction framework [20] (CAP) 
-* Review Honesty Score (RHS) [23]    
+* Review Honesty Score [23] (RHS)   
 * Matrix Factorization based method [28] (MF) 
 * CNN [31] .  
 * HITS based Ranking (HITS) . 
