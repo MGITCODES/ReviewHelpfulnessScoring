@@ -1,4 +1,7 @@
-### Method
+## baseline Method
+*Review Honesty Score (RHS) [23] measures the credibility of a review based on iterative computation on the initial review honesty, reviewer trustiness, and store reliability. The derived honesty scores are then used to rank reviews.  
+*Value-Oriented Helpfulness Ranking (V-OHR) [1] measures the helpfulness of reviews by considering the influence from relevant users (author and voters). The user influence is modeled based on a user’s review number. The value-oriented helpfulness is iteratively estimated with user influence, and the convergent helpfulness scores are used for ranking.   *HITS based Ranking (HITS) measures the IBH scores of reviews following the idea of HITS algorithm [26]. In particular, a hub in HITS refers to a user associated with reviews, and an authority in HITS refers to a review associated with users. 
+
 We achieved the optimal baseline results through parameter tuning.   
 Specifically, the results of V-OHR [1] and RHS [23] converged through iterative computing and they have no hyperparameters;   
 CNN [31] and MF [28] were fine-tuned from the original model based on cross-validation;   
