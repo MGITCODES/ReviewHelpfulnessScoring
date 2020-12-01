@@ -1,9 +1,21 @@
-## baseline Method
-*Review Honesty Score (RHS) [23] measures the credibility of a review based on iterative computation on the initial review honesty, reviewer trustiness, and store reliability. The derived honesty scores are then used to rank reviews.  
-*Value-Oriented Helpfulness Ranking (V-OHR) [1] measures the helpfulness of reviews by considering the influence from relevant users (author and voters). The user influence is modeled based on a user’s review number. The value-oriented helpfulness is iteratively estimated with user influence, and the convergent helpfulness scores are used for ranking.   *HITS based Ranking (HITS) measures the IBH scores of reviews following the idea of HITS algorithm [26]. In particular, a hub in HITS refers to a user associated with reviews, and an authority in HITS refers to a review associated with users. 
+### baseline Method
+* Value-Oriented Helpfulness Ranking (V-OHR) [1]  
+* Context-Aware helpfulness rating prediction framework [20] (CAP) 
+* Review Honesty Score (RHS) [23]    
+* Matrix Factorization based method [28] (MF) 
+* CNN [31] .  
+* HITS based Ranking (HITS) . 
 
+### tuning parameters of baseline
 We achieved the optimal baseline results through parameter tuning.   
-Specifically, the results of V-OHR [1] and RHS [23] converged through iterative computing and they have no hyperparameters;   
+* V-OHR [1]: The review helpfulness is expressed by H(r), and the reviewer quality is expressed by Q(r). The calculation formula of H(r) and Q(r) is designed according to the artificial rules derived from the hypothesis of the paper. When the value of H(r) converges, the algorithm ends. We set the initial value of the iterative algorithm as the highest value (H(r)=Q(r)=1) according to the author's experiment, and the result after convergence is the optimal result.  
+* CAP[20]: This is a probability matrix decomposition model, whose parameters are obtained by Monte Carlo EM algorithm. 
+
+
+
+and RHS [23] converged through iterative computing and they have no hyperparameters;   
+
+
 CNN [31] and MF [28] were fine-tuned from the original model based on cross-validation;   
 the optimal parameters of CAP [20] were obtained using Monte Carlo EM algorithm.  
 
