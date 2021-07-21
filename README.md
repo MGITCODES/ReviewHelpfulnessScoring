@@ -36,8 +36,12 @@ The optimization methodology and tuned parameters of all baselines are as follow
 
 ## Run the codes
 * general helpfulness scoring
+```
 python user_quality_scoring_model.py
 python general_helpfulness_scoring_model.py
+```
 * user-specific helpfulness scoring
+```
 python gnn_based_model.py
+```
 
