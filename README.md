@@ -27,10 +27,10 @@ We achieved the optimal baseline results through parameter tuning.
 
 ### The optimal parameters of baseline
 The optimization methodology and tuned parameters of all baselines are as follows:  
-V-OHR[16]: Q(r)=H(r)=1.  
-RHS[15]: H(v)=T(r)=R(s)=1, roundCounter=0.  
-HITS: h_0= 1/sqrt(N), a_0=1/sqrt(M).  
-CNN[21]: embedding_size=100, active_funtion=ReLU, channel_size=128, lamda_1=lamda_2=lamda_3=lamda_4=0.05, lamda_5=0.0008,LR=0.08.  
-MF[22]: gamma_1=gamma_2=0.007, gamma_3=0.001, lamda_1=0.005, lamda_2=lamda_3=0.015.  
-CAP[6]: The parameters are obtained by Monte Carlo mean and variance.  
+* V-OHR[16]: Q(r)=H(r)=1.  
+* RHS[15]: H(v)=T(r)=R(s)=1, roundCounter=0.  
+* HITS: h_0= 1/sqrt(N), a_0=1/sqrt(M).  
+* CNN[21]: embedding_size=100, active_funtion=ReLU, channel_size=128, lamda_1=lamda_2=lamda_3=lamda_4=0.05, lamda_5=0.0008,LR=0.08.  
+* MF[22]: gamma_1=gamma_2=0.007, gamma_3=0.001, lamda_1=0.005, lamda_2=lamda_3=0.015.  
+* CAP[6]: The parameters are obtained by Monte Carlo mean and variance.  
 
