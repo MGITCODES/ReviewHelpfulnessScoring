@@ -34,3 +34,10 @@ The optimization methodology and tuned parameters of all baselines are as follow
 * MF[22]: gamma_1=gamma_2=0.007, gamma_3=0.001, lamda_1=0.005, lamda_2=lamda_3=0.015.  
 * CAP[6]: The parameters are obtained by Monte Carlo mean and variance.  
 
+## Run the codes
+* general helpfulness scoring
+python user_quality_scoring_model.py
+python general_helpfulness_scoring_model.py
+* user-specific helpfulness scoring
+python gnn_based_model.py
+
